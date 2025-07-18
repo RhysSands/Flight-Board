@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Nearby Flights Arrival Board</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🛬 Nearby Arrivals</h1>
+
+    <label for="airport-select">Select Airport or Your Location:</label>
+    <select id="airport-select">
+      <option value="user">Your Location</option>
+      <option value="cyyz">Toronto Pearson (CYYZ)</option>
+      <option value="rksi">Seoul Incheon (RKSI)</option>
+      <option value="kjfk">New York JFK (KJFK)</option>
+      <option value="rjtt">Tokyo Haneda (RJTT)</option>
+      <option value="egll">London Heathrow (EGLL)</option>
+      <option value="eddm">Munich (EDDM)</option>
+    </select>
+
+    <div class="flight-table">
+      <p>Loading flights...</p>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
